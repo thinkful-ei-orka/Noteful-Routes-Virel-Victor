@@ -1,0 +1,49 @@
+  
+.Add-Form {
+     background-color: #1d3656;
+     color: #dedede;
+     padding: 16px;
+     max-width: 332px;
+   }
+   
+   .Add-Form label {
+     display: block;
+     font-size: 16px;
+     padding-bottom: 8px;
+   }
+   
+   .Add-Form input,
+   .Add-Form textarea,
+   .Add-Form select {
+     font-size: 14px;
+     padding: 8px;
+     width: 300px;
+   }
+   
+   .Add-Form select {
+     height: 33px;
+   }
+   
+   .Add-Form > .field {
+     margin-bottom: 16px;
+   }
+   .Add-Form > .buttons {
+     margin-top: 26px;
+   }
+   
+   .Add-Form button {
+     background-color: #010d1e;
+     border-radius: 4px;
+     border: 0;
+     color: #cacaca;
+     display: block;
+     font-size: 18px;
+     font-weight: bold;
+     padding: 8px;
+     text-align: center;
+     text-decoration: none;
+   }
+   .Add-Form button[type="submit"]:hover {
+     background-color: #29862e;
+     color: white;
+   }

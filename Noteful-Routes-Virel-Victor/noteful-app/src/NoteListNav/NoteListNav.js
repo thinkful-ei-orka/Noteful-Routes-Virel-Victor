@@ -1,6 +1,7 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import NavButton from '../Buttons/Button';
 
 import './NoteListNav.css';
 
@@ -29,12 +30,17 @@ export default function NoteListNav(props) {
                     )}
                </ul>
                {/* button to go to add-folder (remember correct route) */}
-               <button 
+               <div>
+               <NavButton 
+               tag={ Link }
+               to='/add-folder'
+               type='button'
                className='NoteListNav-Add-Folder-Button'
                >
                <FontAwesomeIcon icon='plus' />
-                    Add Folder
-               </button>
+                    Folder
+               </NavButton>
+               </div>
           </div>
      )
 }
